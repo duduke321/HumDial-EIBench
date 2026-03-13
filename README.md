@@ -1,6 +1,6 @@
-# HumDial-EIBench: A Multi-Turn Emotional Intelligence Benchmark for Audio Language Models
+# HumDial-EIBench: A Human-Recorded Multi-Turn Emotional Intelligence Benchmark for Audio Language Models
 
-> **Official repository of "HumDial-EIBench: A Multi-Turn Emotional Intelligence Benchmark for Audio Language Models".**
+> **Official repository of "HumDial-EIBench: A Human-Recorded Multi-Turn Emotional Intelligence Benchmark for Audio Language Models".**
 
 <div align="center">
 
@@ -11,15 +11,15 @@
 
 <div align="center">
   <img src="assets/humdial-bench.png" alt="HumDial-EIBench Pipeline" width="90%">
-  <p><em>Figure 1: Data construction and task overview of HumDial-EIBench. Left: The three-stage construction pipeline encompassing dialogue script design, human performance and quality control, and objective rewriting. Right: Representative examples of the four evaluation tasks.</em></p>
+  <p><em>Figure 1: Data construction and task overview of HumDial-EIBench. Left: Three-stage pipeline——Stage 1: Dialogue Script Design; Stage 2: Authentic Human Enactment and Quality Control; Stage 3: Multiple-Choice Reformulation and Distractor Construction. Right: Representative examples of the four tasks.</em></p>
 </div>
 
-This is the official repository for the paper **"HumDial-EIBench: A Multi-Turn Emotional Intelligence Benchmark for Audio Language Models"**.
+This is the official repository for the paper **"HumDial-EIBench: A Human-Recorded Multi-Turn Emotional Intelligence Benchmark for Audio Language Models"**.
 
 **Dataset and evaluation codes can be accessed anonymously at:** [https://anonymous.4open.science/r/HumDial-EIBench-BDA3/](#)
 
 ## 💡 Abstract
-Comprehensive assessment of emotional intelligence in end-to-end spoken dialogue models is important. Traditional evaluation of open-ended generation relies on subjective scoring, which hinders stable quantification of context understanding capabilities, such as tracking emotional changes or inferring underlying causes. To address this issue, this paper proposes HumDial-EIBench, an objective benchmark to evaluate the emotional intelligence of audio language models. Based on the human-recorded test set from the ICASSP 2026 HumDial Challenge, the proposed benchmark transforms emotional trajectory detection and emotional causal reasoning tasks into multiple-choice formats with adversarial distractors, eliminating subjective scoring variants. Furthermore, HumDial-EIBench retains the original empathetic response generation task and introduces an acoustic-semantic conflict recognition task to assess cross-modal perception and empathetic expression. Extensive evaluation results across eight audio language models validate the effectiveness of the proposed benchmark in diagnosing complex interaction capabilities. The results indicate significant room for improvement in multi-turn dialogues and cross-modal alignment among current models.
+Evaluating the emotional intelligence (EI) of audio language models (ALMs) is critical. However, existing benchmarks mostly rely on synthesized speech, are limited to single-turn interactions, and depend heavily on open-ended scoring. This paper proposes HumDial-EIBench, a comprehensive benchmark for evaluating ALMs' EI. Using real-recorded human dialogues from the ICASSP 2026 HumDial Challenge, it reformulates emotional tracking and causal reasoning into multiple-choice questions with adversarial distractors, mitigating subjective scoring bias for cognitive tasks. It retains the generation of empathetic responses and introduces an acoustic-semantic conflict task to assess robustness against contradictory multimodal signals. Evaluations of eight ALMs reveal that most models struggle with multi-turn emotional tracking and implicit causal reasoning. Furthermore, all models exhibit decoupled textual and acoustic empathy, alongside a severe text-dominance bias during cross-modal conflicts.
 
 ## 🚀 News
 * **[2026.03]** Paper submitted and repository initialized.
