@@ -23,7 +23,7 @@ Evaluating the emotional intelligence (EI) of audio language models (ALMs) is cr
 
 ## 🚀 News
 * **[2026.03]** Paper submitted and repository initialized.
-* **[2026.03]** HumDial-EIBench dataset uploaded.
+* **[2026.03]** HumDial-EIBench dataset uploaded to HuggingFace (Currently private for blind review).
 
 ## 📊 Dataset: HumDial-EIBench
 
@@ -52,17 +52,6 @@ Retained from the original ICASSP 2026 challenge, this task requires audio langu
 A newly introduced single-turn task. Models must identify true emotional states when the literal semantic content contradicts the acoustic emotional tone (e.g., sarcasm). This task specifically evaluates text-dominance bias.
 
 ## 💻 Usage
-
-### Evaluation Overview
-
-| Task | Input | Evaluation |
-| :--- | :--- | :---: |
-| Task 1 – Emotional Trajectory | Multi-turn audio + question + 4 options | Accuracy |
-| Task 2 – Causal Reasoning | Multi-turn audio + question + 4 options | Accuracy |
-| Task 3 – Empathetic Generation | Multi-turn audio + question | LLM judge (D1) + Human (D2/D3) |
-| Task 4 – Acoustic-Semantic Conflict | Single-turn audio + question + 4 options | Accuracy |
-
----
 
 ### Tasks 1, 2 & 4 — Multiple-Choice Evaluation
 
@@ -118,7 +107,7 @@ If you use this benchmark, please consider citing the paper:
 
 ```bibtex
 @article{HumDialEIBench2026,
-  title={HumDial-EIBench: A Multi-Turn Emotional Intelligence Benchmark for Audio Language Models},
+  title={HumDial-EIBench: A Human-Recorded Multi-Turn Emotional Intelligence Benchmark for Audio Language Models},
   author={Anonymous Authors},
   journal={Anonymous submission},
   year={2026}
