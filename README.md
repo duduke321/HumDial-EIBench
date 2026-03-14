@@ -109,7 +109,7 @@ If you use this benchmark, please consider citing the paper:
 @article{HumDialEIBench2026,
   title={HumDial-EIBench: A Human-Recorded Multi-Turn Emotional Intelligence Benchmark for Audio Language Models},
   author={Anonymous Authors},
-  journal={Anonymous submission},
+  journal={Anonymous submission to Interspeech 2026},
   year={2026}
 }
 ```
